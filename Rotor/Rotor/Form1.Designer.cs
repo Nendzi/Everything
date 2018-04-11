@@ -44,7 +44,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Shuffle = new System.Windows.Forms.Button();
             this.pictureBoxTemp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -241,17 +241,17 @@
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseMove);
             // 
-            // button1
+            // btn_Shuffle
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(0, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(288, 72);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Shuffle";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button1_MouseMove);
+            this.btn_Shuffle.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btn_Shuffle.Location = new System.Drawing.Point(0, 288);
+            this.btn_Shuffle.Name = "btn_Shuffle";
+            this.btn_Shuffle.Size = new System.Drawing.Size(288, 72);
+            this.btn_Shuffle.TabIndex = 16;
+            this.btn_Shuffle.Text = "Shuffle";
+            this.btn_Shuffle.UseVisualStyleBackColor = true;
+            this.btn_Shuffle.Click += new System.EventHandler(this.Btn_Shuffle_Click);
+            this.btn_Shuffle.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button1_MouseMove);
             // 
             // pictureBoxTemp
             // 
@@ -266,7 +266,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(288, 361);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Shuffle);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
@@ -326,7 +326,7 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Shuffle;
         private System.Windows.Forms.PictureBox pictureBoxTemp;
     }
 }

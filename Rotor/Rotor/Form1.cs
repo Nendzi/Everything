@@ -22,7 +22,7 @@ namespace Rotor
 
         PictureBox Plocica = new PictureBox();
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Btn_Shuffle_Click(object sender, EventArgs e)
         {
             byte I = 0;
             int J = 0;
