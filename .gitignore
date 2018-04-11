@@ -1,0 +1,8 @@
+Rotor/Rotor/bin/
+Rotor/Rotor/obj/
+/Rotor/.vs/Rotor/v15/*.suo
+/Rotor/.vs/Rotor/v15/Server/sqlite3/*.lock
+/Rotor/.vs/Rotor/v15/Server/sqlite3/*.ide
+/Rotor/.vs/Rotor/v15/Server/sqlite3/*.ide-shm
+/Rotor/.vs/Rotor/v15/Server/sqlite3/*.ide-wal
+/Rotor/.vs/Rotor/v14/*.suo
