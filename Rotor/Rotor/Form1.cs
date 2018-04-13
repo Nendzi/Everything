@@ -27,8 +27,7 @@ namespace Rotor
             byte I = 0;
             int J = 0;
             int K = 0;
-            int[] Niz;
-            Niz = new int[16];
+            int[] Niz = new int[16];
             Random RndNum = new Random();
 
             // formirj niz od 16 elemenata
